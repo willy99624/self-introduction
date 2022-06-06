@@ -1,0 +1,79 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#body_wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: lightblue;
+    display: flex;
+    padding-top: 5px;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+nav div#navbar_menu{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+}
+
+nav a img{
+    width: 150px;
+    height: 100px;
+}
+
+nav div#navbar_menu a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+section div#my_pictures_1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section div#my_pictures_1 img{
+    width: 300px;
+    height: 400px;
+    padding: 4px;
+    border-radius: 50px;
+}
+
+section div#my_pictures_2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section div#my_pictures_2 img{
+    width: 300px;
+    height: 500px;
+    padding: 4px;
+    border-radius: 50px;
+}
